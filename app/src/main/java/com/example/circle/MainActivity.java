@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         }
         startActivity(intent);
 
-
+        /*
         Intent intent1 = getIntent();
         abc = intent1.getExtras().getInt("abc");
         switch (abc) {
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                 longitude5 = intent1.getExtras().getDouble("경도");
                 break;
         }
-
+*/
     }
 
 

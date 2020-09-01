@@ -51,14 +51,14 @@ public class MainMapActivity extends FragmentActivity implements OnMapReadyCallb
         mapFragment.getMapAsync(this);
         Intent intent = getIntent();
         this.abc = intent.getExtras().getInt("abc");
-        this.Latitude = intent.getExtras().getDouble("위도");
-        this.Longitude = intent.getExtras().getDouble("경도");
+       this.Latitude = intent.getExtras().getDouble("위도");
+       this.Longitude = intent.getExtras().getDouble("경도");
     }
     public void mOnReset(View view){
-        Intent intent = new Intent(MainMapActivity.this, MainActivity.class);
-        intent.putExtra("abc",abc);
-        intent.putExtra("위도", Latitude);
-        intent.putExtra("경도", Longitude);
+       // Intent intent = new Intent(MainMapActivity.this, MainActivity.class);
+       // intent.putExtra("abc",abc);
+        //intent.putExtra("위도", Latitude);
+       // intent.putExtra("경도", Longitude);
     }
     //확인 버튼 클릭
     public void mOnClose(View v){
